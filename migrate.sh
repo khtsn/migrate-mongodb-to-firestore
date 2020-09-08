@@ -4,13 +4,12 @@
 # Script follows here:
 
 # Change it yours if needed
-MONGODB_URI=mongodb://localhost:27017/testdb
+MONGODB_URI=mongodb://zack@localhost:27017/testdb
 SERVICE_FILE=gcpserviceaccount.json
 
 
 # List of collections want to migrate from mongodb to firestore
-COLLECTIONS[0]=students
-COLLECTIONS[1]=teachers
+COLLECTIONS[0]=article
 
 mkdir firestore-import-data
 
